@@ -5,12 +5,12 @@ Initially it's designed to work on Ubuntu and other Linux Vms.  I might try sett
 
 ## Components
 1. Installs
--- zsh
--- oh my zsh
--- vim
+  - zsh
+  - oh my zsh
+  - vim
 2. Configures
--- vim
--- zsh
--- ssh keys
+  - vim
+  - zsh
+  - ssh keys
 
 This is a work in progress, 
