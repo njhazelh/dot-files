@@ -12,6 +12,7 @@ git clone https://github.com/njhazelh/dot-files.git
 cd dot-files
 
 # Install zsh and ohmyzsh!
+chsh -s `which zsh`
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cp .zshrc ~
 source ~/.zshrc
