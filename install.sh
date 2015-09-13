@@ -24,8 +24,12 @@ cp .vimrc ~
 mkdir -p ~/.config/terminator
 cp terminator-config ~/.config/terminator/config
 
-# Git Configuration
+# Set up SSH Keys
 ssh-keygen -t rsa -b 4096 -C "njhazelh@gmail.com" -N "" -f ~/.ssh/id_rsa
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+
+# Configure Git
 git config --global core.editor "vim"
 git config --global push.default simple
 git config --global user.name "Nick Jones"
