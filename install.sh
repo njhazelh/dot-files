@@ -8,7 +8,8 @@ sudo apt-get --assume-yes install zsh vim terminator curl xclip git
 # Clone the repo
 mkdir ~/dev
 cd ~/dev
-git clone git git@github.com:njhazelh/dot-files.git
+git clone https://github.com/njhazelh/dot-files.git
+cd dot-files
 
 # Install zsh and ohmyzsh!
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
