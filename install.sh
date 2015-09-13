@@ -1,12 +1,24 @@
 #!/bin/bash
 
+# Clone the repo
+mkdir ~/dev
+cd ~/dev
+git clone git git@github.com:njhazelh/dot-files.git
+
+# Update, upgrade, and install
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install zsh vim terminator curl xclip
+
+# Install zsh and ohmyzsh!
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cp .zshrc ~
 source ~/.zshrc
+
+# Configure vim
 cp .vimrc ~
+
+# Configure terminator
 cp terminator-config ~/.config/terminator/config
 
 # Git Configuration

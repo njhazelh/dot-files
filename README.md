@@ -3,6 +3,13 @@ It's a pain setting everything up each time, so this seemed like a good idea.
 
 Initially it's designed to work on Ubuntu and other Linux Vms.  I might try setting up other things in the future.
 
+## Install Script
+This script assumes that you're starting in a fresh Ubuntu 15 box.
+
+```bash
+wget -qO- https://raw.githubusercontent.com/njhazelh/dot-files/master/install.sh | bash
+```
+
 ## Components
 1. Installs
   - zsh
