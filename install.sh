@@ -38,3 +38,8 @@ nvm install stable
 sudo apt-get install openjdk-8-jdk
 
 #Check to install docker
+
+# Things to do:
+# Install Chrome
+# Add SSH key to github
+# Install sublime
