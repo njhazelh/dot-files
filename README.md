@@ -7,7 +7,7 @@ Initially it's designed to work on Ubuntu and other Linux Vms.  I might try sett
 This script assumes that you're starting in a fresh Ubuntu 15 box.
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/njhazelh/dot-files/master/install.sh | bash
+sh -c "$(wget https://raw.github.com/njhazelh/dot-files/master/install.sh -O -)"
 ```
 
 ## Components
