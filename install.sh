@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Update, upgrade, and install
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install zsh vim terminator curl xclip git
+sudo apt-get --assume-yes update
+sudo apt-get --assume-yes upgrade
+sudo apt-get --assume-yes install zsh vim terminator curl xclip git
 
 # Clone the repo
 mkdir ~/dev
