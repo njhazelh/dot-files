@@ -21,6 +21,7 @@ source ~/.zshrc
 cp .vimrc ~
 
 # Configure terminator
+mkdir -p ~/.config/terminator
 cp terminator-config ~/.config/terminator/config
 
 # Git Configuration
