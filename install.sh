@@ -25,7 +25,7 @@ mkdir -p ~/.config/terminator
 cp terminator-config ~/.config/terminator/config
 
 # Git Configuration
-ssh-keygen -t rsa -b 4096 -C "njhazelh@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "njhazelh@gmail.com" -N "" -f ~/.ssh/id_rsa
 git config --global core.editor "vim"
 git config --global push.default simple
 git config --global user.name "Nick Jones"
